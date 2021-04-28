@@ -48,7 +48,7 @@ window.onload = function () {
             .replace(/\s+/g, " ").toLowerCase();
         switch (phrase) {
             case tony:
-                changeBackground("tony");
+                changeBackground("Tony");
                 correctGuesses.tony = true;
                 break;
             case tea:
